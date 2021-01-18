@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body { /* list of font-families from https://www.w3.org/Style/Examples/007/fonts.en.html*/
+  box-sizing: border-box;
+  justify-content: center;
+  margin: 0 auto;  
+  background-color: beige;
+  display: flex;
+  font-family:'Courier New', Courier, monospace;
+  
+}
+
+header {
+  box-sizing: border-box;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+
+}
+
+.main-titles {
+  color: brown;
+  font-size: 2.5em;
+  text-shadow: 5px -3px 0px tan;
+
+}
+
+.inline-column-text {
+  color: black
+  
+}
+
+#paragraph {
+  width: 900px;
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#paragraph span {
+  color: red;
+}
+
+/* HTML 4 default style sheet at the following address
+(I know we are on 5, but it still applies!):
+https://www.w3.org/TR/CSS22/sample.html */
+
+/* I used the html tag 'blockquote' and full defined its
+style here.*/
+
+blockquote {
+  margin-left: 60px; 
+  margin-right: 60px;
+  font-style: italic;
+  
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+.container {
+  width: 900;
+  margin: 0 auto;
+  display: inline-flex;
+
+}
+
+.container-left {
+  width: 400px;
+  margin-left: 30px;
+  flex-direction: row;
+  align-self:flex-start;
+  list-style-type: repeating-emoji;
+
+}
+
+.container-right {
+  width: 500px;
+  flex-direction: row;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: auto;
+  align-self: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+ul li {
+  padding-left: 1rem;
+  text-indent: -0.7rem;
+}
+
+ul li::before {
+  list-style: none;
+  content: "👍 ";
+}
+
+footer {
+  width: 900px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-bottom: 40px;
+
+}

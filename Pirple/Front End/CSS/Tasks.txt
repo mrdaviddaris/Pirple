@@ -1,0 +1,46 @@
+link to jsbin:
+https://jsbin.com/pojuliq/edit?js,console
+
+Reasoning:
+First, the script:
+
+let men = ["Peter", "James", "Socrates", "Ceaser"];
+let allMenMortal = true;
+
+if (allMenMortal) {
+  console.log("All men are mortal");
+}
+    if (men.includes("Socrates")) {
+      console.log("Socrates is a man");
+      console.log("Therefore, Socrates is mortal");
+    } 
+
+Requirements:
+Using "if statements" and any other logical operators and 
+data-types you see fit, recreate this logical argument. 
+(1) Your code should make clear that "socrates" is part of a 
+collection of items referred to as "men":
+"let men = ["Peter", "James", "Socrates", "Ceaser"];"
+(2) That all members of this collection are mortal: 
+"allMenMortal=true"
+(3) Since Socrates is part of this collection, it follows 
+that he is mortal as well:
+"if (men.includes("Socrates"))"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
